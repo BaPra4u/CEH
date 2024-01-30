@@ -1,3 +1,5 @@
+Zaproxy
+
 1- Auth Bypass-  hi'OR 1=1 --
 2- Insert new details if sql injection found in login page in username tab enter- blah';insert into login values('john','apple123');--
 3- Exploit a Blind SQL Injection- In the website profile, do inspect element and in the console tab write -  document.cookie
