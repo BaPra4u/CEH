@@ -4,6 +4,6 @@ to connect CMD: ftp ip
 CMD: get file name (to download the file to view)
 
 SSH
-hydra -L uesr.txt -P pass.txt ssh
+hydra -L uesr.txt -P pass.txt IP ssh
 ssh usernmae@ip (or) ssh username@ip:22 (or) ssh usernmae@ip -p port
 
