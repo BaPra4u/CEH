@@ -3,3 +3,5 @@ gunzip /usr/share/wordlists/rockyou.txt.gz
 unzip file.zip
 fcrackzip file.zip
 nc -lvnp port
+
+gobuster dir -u http://ip -w wordlist
