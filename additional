@@ -5,3 +5,16 @@ fcrackzip file.zip
 nc -lvnp port
 find . -name flag.txt
 gobuster dir -u http://ip -w wordlist
+
+
+Domain user account 
+login rdp (username and pass will be given)
+cmd :net user
+
+cryp-tool ECB(.hex) format FTP
+
+oprn cryptool
+Encrypt/Decrypt
+symmetric (morden)
+DES (ECB)
+can can get the ftp credintial
