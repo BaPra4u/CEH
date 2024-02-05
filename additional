@@ -5,6 +5,10 @@ fcrackzip file.zip
 nc -lvnp port
 find . -name flag.txt
 gobuster dir -u http://ip -w wordlist
+C:\> D:
+D:\>
+cd /d D:\Your\Desired\Directory
+
 
 
 Domain user account 
